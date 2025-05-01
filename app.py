@@ -266,3 +266,11 @@ with st.expander("📚 Información sobre el análisis"):
 # Pie de página
 st.markdown("---")
 st.markdown("Desarrollado con ❤️ usando Streamlit y TextBlob")
+
+st.markdown("""
+    <style>
+        .stApp {
+            background-color: #97;
+        }
+    </style>
+""", unsafe_allow_html=True)
